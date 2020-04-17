@@ -14,7 +14,7 @@
 	* 功能分支（feature branch）
 	* 补丁分支（hotfix branch）
 	* 预发分支（release branch）
-* ![](images/gitflow_brief.png)
+* ![](../images/gitflow_brief.png)
 
 ## 常见分支
 
@@ -39,7 +39,7 @@
 	- 当我们在Production发现新的Bug时候,**基于Master分支创建Hotfix** 
 	- 完成Hotfix后，我们合并回Master和Develop分支，**所以Hotfix的改动会进入下一个Release**
 
- ![](images/git-flow.png)
+ ![](../images/git-flow.png)
  
  
 

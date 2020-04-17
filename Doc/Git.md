@@ -1,8 +1,8 @@
 #  Git 分布式世界
 
-- [Git的官网->git-scm](http://git-scm.com)
+- [git-scm](http://git-scm.com)
 - [Git命令图谱- @吴坚｜南航软件工程师](https://github.com/TeamStuQ/skill-map/blob/master/data/map-Git.md)
-- [Gitflow -工作流 ](./other/Gitflow.md)
+- [Gitflow -工作流 ](Gitflow.md)
 
 # content list 
 
@@ -35,24 +35,24 @@
 	- 一种是filename已经添加到暂存区后，⼜作了修改，现在，撤销修改就回到添加到暂存区后的状态.
 
 - `git rm -f [filename]` 文件从版本库中删除
-- `git checkout [filename]`  文件从版本库中恢复[git checkout其实是⽤用版本库⾥里的版本替换⼯工作区的版本]
 - `git log`	显示当前分支的版本历史 
-	- `git log -p FILE` 查看 README.md 的修改历史，例如：
+- `git log -p [filename]` 查看 README.md 的修改历史，例如：
 	
-		> git log -p README.md 
+	> git log -p README.md 
 	
-	-  **git log --pretty=oneline** 
+-  **git log --pretty=oneline** 
 
 	```
-DragonLi-2:pythonRepo LFL$ git log --pretty=oneline
-4d43c74252ea01a0ffac5cff71c5853259e208f2 (HEAD -> master) adjust diff fix #1
-22c3340902e72394e7b2a5aab136cc76576f7ddb add coding
-446a8635555c20af39fd1c1856734e72af6cbb70 python.py
+	DragonLi-2:pythonRepo LFL$ git log --pretty=oneline
+	4d43c74252ea01a0ffac5cff71c5853259e208f2 (HEAD -> master) adjust diff fix #1
+	22c3340902e72394e7b2a5aab136cc76576f7ddb add coding
+	446a8635555c20af39fd1c1856734e72af6cbb70 python.py
+	
 	```
 - **git reflog⽤用来记录你的每⼀次命令** 
 	- 要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本
 	- `git reset --hard commit_id`   
-- `git clone [url]`  URL
+- `git clone [url]`  检出新仓库
 - `git remote add origin [url]`  本地仓库关联远程仓库
 	- `git remote -v ` 查看远程库的信息
 	- `git branch --set-upstream branch-name origin/branch-name` 创建本地分⽀支和远程分⽀支的链接关系 
@@ -129,8 +129,9 @@ master分⽀支内容推送的远程新的master分⽀支
 
 ## <a name="rebase"></a> rebase
 
- >  使用变基rebase可以让提交历史变得更简洁. 
- > rebase原理就是, 从目标分支和要变基的分支向上查找出共同祖先节点`A`, 然后把要变基的分支到`A`节点的所有提交,提取出相应的修改生成一个副本, 并追加到目标分创建相对应的提交. 此时变基的分支指向目标分支master的后面某一次提交. 此时只要使用修改master指向指针使用merge即可.
+ > **使用变基rebase可以让提交历史变得更简洁**. 
+ 
+ > rebase原理就是, *从目标分支和要变基的分支向上查找出共同祖先节点`A`, 然后把要变基的分支到`A`节点的所有提交,提取出相应的修改生成一个副本*, 并追加到目标分创建相对应的提交. 此时变基的分支指向目标分支master的后面某一次提交. 此时只要使用修改master指向指针使用merge即可.
 
  - rebase <目标分支名> [需要移动变基底的分支]
  	-  `git rebase master experiment`	

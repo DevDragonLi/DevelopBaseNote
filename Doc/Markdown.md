@@ -2,8 +2,6 @@
 
 ### Markdown 文件自动生成目录？
 
->  [example repo README](https://github.com/DevDragonLi/iOSDevNotesAndInterviews)
-
 - [下载和安装 pandoc](https://github.com/jgm/pandoc/releases)
 - `pandoc --version` ,确认已安装 
 - 生成链接目录,部分`file`,可能会有错乱,还需要手动纠正一下.
@@ -15,7 +13,7 @@
 
 ### 基本语法
 
-> https://github.com/younghz/Markdown
+>  https://github.com/younghz/Markdown
 
 - 代码 : ``` 代码块 ```
 
