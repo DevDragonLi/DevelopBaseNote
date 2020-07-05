@@ -1,6 +1,6 @@
 ## DevelopBaseNote
 
-> 备注：[从此Repo抽离出而专注于通用开发相关的新Repo](https://github.com/DevDragonLi/iOSDevNotesAndInterviews)
+> 备注：[从(iOSInterviewsAndDevNotes)抽离出专注于通用开发Repo](https://github.com/DevDragonLi/iOSDevNotesAndInterviews)
 
 | CATEGORY | FILENAME |  
 |:----|:----|
@@ -8,4 +8,4 @@
 
 | CATEGORY | FILENAME |  
 |:----|:----|
-| Markdown相关 |[Markdown](./base/Markdown.md)|
+| Markdown相关 |[Markdown](./Doc/Markdown.md)|

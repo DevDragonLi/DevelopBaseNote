@@ -1,11 +1,9 @@
 
-# 如何刪除Git中已經被commit的檔案？減少倉庫(Repository)所佔用的檔案空間大小
+# 刪除Git中已經被commit的檔案？減少倉庫(Repository)所佔用的檔案空間大小
 
 > [**参考文章原地址**](https://magiclen.org/git-remove-commited-files/) 
 
-> 前言：通过Google，简书等查询很多均执行后无改善
-
-## 遇到错误的尝试
+## git-scm上指令探索
 
 - https://git-scm.com/book/zh/v2/Git-内部原理-维护与数据恢复
   
@@ -15,7 +13,7 @@
   - **本地指令报：you must specify a ref to rewrite **
 -  其他简书教程基本是：WARNING: Ref 'refs/remotes/origin/master' is unchanged
 
-## 此repo可瘦身的执行操作如下。
+## 瘦身的执行操作如下
 
 - 顯示目前專案的Git倉庫究竟佔用了多少空間
 
