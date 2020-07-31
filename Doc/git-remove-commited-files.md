@@ -25,7 +25,7 @@
 
 - 將已經被commit進Git倉庫的檔案刪除
 
-	-  git filter-branch --force --tree-filter 'rm -f -r "file path name "' -- --all 
+	-  git filter-branch --force --tree-filter 'rm -f -r "fileName"' -- --all 
 
 - 后续操作，可连续执行 
 	- git filter-branch --force && git reflog expire --expire=now --expire-unreachable=now --all && git gc --prune=all --aggressive && git push --force --all
