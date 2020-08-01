@@ -74,13 +74,14 @@ fi
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 
-echo -e "\033[32m all operation done 🍺 🍺 🍺  \033[0m \n"
 
 
 echo -e "\033[32m cocoapods , you can cancel it\033[0m"
 
 # option 
 sudo gem install -n /usr/local/bin cocoapods 
+
+echo -e "\033[32m all operation done 🍺 🍺 🍺  \033[0m \n"
 
 exit -1024
 

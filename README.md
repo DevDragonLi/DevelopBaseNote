@@ -10,14 +10,15 @@
 ## shell Tool
 
 ### mac开发环境安装脚本(需安装xcode后，再执行)
+> 网络环境检测，可以顺畅访问后执行后续操作
+- Homebrew
+- rvm 2.7.0 
+- gem update 
+- oh-my-zsh
+- cocoapods
 
-- `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/devEnvInstallTool.sh)")`
-	- 网络环境检测，可以顺畅访问后执行后续操作
-	- Homebrew
-	- rvm 2.7.0 
-	- gem update 
-	- oh-my-zsh
-	- cocoapods
+##### `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/devEnvInstallTool.sh)"`
+	
 
 ## Markdown
 
