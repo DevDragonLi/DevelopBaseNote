@@ -19,7 +19,7 @@
 
 | CATEGORY | FILENAME |  
 |:----|:----|
-| iOS相关脚本| [Xcode 缓存清理](./shell/deleteXCodeCache.sh)  |
+| iOS相关脚本| [Xcode 缓存清理](./shell/deleteXCodeCache.sh)<br> [组件化项目批量管理子组件脚本：同步/缺失下载](./shellrepoSync.sh)   |
 | |	   |
 | |   |
 | |	   |
