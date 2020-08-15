@@ -7,10 +7,9 @@
 
 - https://git-scm.com/book/zh/v2/Git-内部原理-维护与数据恢复
   
-  -  git filter-branch --index-filter \
-  'git rm --ignore-unmatch --cached git.tgz' -- 7b30847^.. 
+  - git filter-branch --index-filter 'git rm --ignore-unmatch --cached git.tgz' -- 7b30847^.. 
   
-  - **本地指令报：you must specify a ref to rewrite **
+  - **本地指令报：you must specify a ref to rewrite**
 -  其他简书教程基本是：WARNING: Ref 'refs/remotes/origin/master' is unchanged
 
 ## 瘦身的执行操作如下

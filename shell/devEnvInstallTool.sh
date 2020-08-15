@@ -28,7 +28,6 @@ then
 
 echo -e "\033[31m install Homebrew error ！！！\n\n\n  \033[0m"
 
-# exit -256
 
 fi	
 
@@ -45,7 +44,6 @@ then
 
 echo -e "\033[31m update rvm error ！！！\n\n\n  \033[0m"
 
-# exit -512
 
 fi
 
@@ -77,6 +75,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo -e "\033[32m cocoapods , you can cancel it\033[0m"
 
 # option  cocoapods
-sudo gem install -n /usr/local/bin cocoapods 
+sudo gem install -n /usr/local/bin cocoapods && pod update
 
 echo -e "\033[32m all operation done 🍺 🍺 🍺  \033[0m \n"
