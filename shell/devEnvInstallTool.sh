@@ -36,7 +36,7 @@ echo -e "\033[35m 🚀：begain rvm update 😁 \033[0m"
 ruby -v && curl -L get.rvm.io | bash -s stable
 
 source ~/.bashrc && source ~/.bash_profile
-rvm -v && rvm install "ruby-2.7.0" && rvm use 2.7.0 --default
+rvm -v && rvm install "ruby-2.6.3" && rvm use 2.6.3 --default
 
 
 if [[ $? -ne 0 ]]
@@ -75,6 +75,6 @@ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/i
 echo -e "\033[32m cocoapods , you can cancel it\033[0m"
 
 # option  cocoapods
-sudo gem install -n /usr/local/bin cocoapods && pod update
+sudo gem install -n /usr/local/bin cocoapods 
 
 echo -e "\033[32m all operation done 🍺 🍺 🍺  \033[0m \n"
