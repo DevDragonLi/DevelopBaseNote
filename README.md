@@ -9,7 +9,15 @@
 
 ## shell
 
-### mac开发环境安装一键安装 （网络环境检测，可以顺畅访问后执行后续操作）
+| Function | FILENAME |  
+|:----|:----|
+|文件夹内多个MD文件列表自动生成README可用的展示列表|[READMEList](./shell/READMEList.sh)|
+
+
+### iOS相关脚本
+
+> mac开发环境安装一键安装 （网络环境检测，可以顺畅访问后执行后续操作）
+
 - **`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/devEnvInstallTool.sh)"`**
 	- Homebrew
 	- rvm 2.6.3 
@@ -17,12 +25,12 @@
 	- oh-my-zsh
 	- cocoapods
 
-| CATEGORY | FILENAME |  
-|:----|:----|
-| iOS相关脚本| [Xcode 缓存清理](./shell/deleteXCodeCache.sh)<br> [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/repoSync.sh)<br>[pod自动化更新脚本（已完善）](./shell/podUpdate.sh)   |
-| |	   |
-| |   |
-| |	   |
+- [Xcode 缓存清理](./shell/deleteXCodeCache.sh)
+- [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/repoSync.sh)
+- [pod自动化更新脚本（已完善）](./shell/podUpdate.sh)
+	- 展示当前版本
+	- 手动输入新版本及校验Tag
+	- 后续流程一键操作
 
 ## Markdown
 
