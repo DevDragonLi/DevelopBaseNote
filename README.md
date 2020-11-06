@@ -21,6 +21,7 @@
 
 - [Xcode 缓存清理](./shell/deleteXCodeCache.sh)
 - [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/repoSync.sh)
+- [Pod组件合法性校验脚本](./shell/checkpod.sh)
 - [pod自动化更新脚本（已基本完善）](./shell/podUpdate.sh)
 	- 展示当前版本
 	- 手动输入新版本及校验Tag
