@@ -12,17 +12,21 @@
 
 > mac开发环境安装一键安装 （网络环境检测，可以顺畅访问后执行后续操作）
 
-- **`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/devEnvInstallTool.sh)"`**
+##### **`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/devEnvInstallTool.sh)"`**
 	- Homebrew
 	- rvm 2.6.3 
 	- gem update
 	- oh-my-zsh
 	- cocoapods
+#####  [pod自动化更新脚本](./shell/podUpdate.sh)
+
+>  - **`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/DevDragonLi/DevelopBaseNote/master/shell/podUpdate.sh)"`**
+
+- 展示当前版本
+- 手动输入新版本及校验
+- 后续流程自动化发布【修改podspec版本信息，tag及提交信息】
 
 - [Xcode 缓存清理](./shell/deleteXCodeCache.sh)
 - [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/repoSync.sh)
 - [Pod组件合法性校验脚本](./shell/checkpod.sh)
-- [pod自动化更新脚本（已基本完善）](./shell/podUpdate.sh)
-	- 展示当前版本
-	- 手动输入新版本及校验Tag
-	- 后续流程一键操作
+
