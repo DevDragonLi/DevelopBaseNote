@@ -27,6 +27,6 @@
 - 后续流程自动化发布【修改podspec版本信息，tag及提交信息】
 
 - [Xcode 缓存清理](./shell/deleteXCodeCache.sh)
-- [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/repoSync.sh)
+- [组件化项目批量管理子组件脚本：同步/缺失下载](./shell/subrepoSync.sh)
 - [Pod组件合法性校验脚本](./shell/checkpod.sh)
 
